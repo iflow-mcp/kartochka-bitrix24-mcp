@@ -1,5 +1,5 @@
 [project]
-name = "bitrix24-mcp"
+name = "iflow-mcp_kartochka-bitrix24-mcp"
 version = "1.0.1"
 description = "MCP server for interacting with Bitrix24 using natural language and AI dialogues to get data, perform actions, and manage the system."
 readme = "README.md"
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-bitrix24-mcp = "src.main:run"
+iflow-mcp_kartochka-bitrix24-mcp = "src.main:run"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src"]
